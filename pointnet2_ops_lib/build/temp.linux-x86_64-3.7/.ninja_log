@@ -1,0 +1,10 @@
+# ninja log v5
+2	22076	1717824890554671558	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/group_points.o	8473291095809823
+1	22110	1717824890586671595	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/sampling.o	81fd990c3ad75899
+1	22118	1717824890594671604	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/interpolate.o	4068674c4e0e3a25
+2	22911	1717824891386672509	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/ball_query.o	9053c8d029d7a4e8
+1	27830	1717824896302678124	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/bindings.o	48d1df8e63ccccc0
+3	43821	1717824912290696383	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/group_points_gpu.o	8f809df96c3af555
+3	43908	1717824912370696474	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/ball_query_gpu.o	d4b63cfaa8b28bb2
+2	43996	1717824912462696580	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/interpolate_gpu.o	7d4e959fa98f7220
+2	46197	1717824914662699092	/home/mlmlab13/pointMLP-pytorch/pointnet2_ops_lib/build/temp.linux-x86_64-3.7/pointnet2_ops/_ext-src/src/sampling_gpu.o	a044af8fe64c541a

@@ -1,0 +1,5 @@
+(base) [01;32mmlmlab13@mlmlab[00m:[01;34m~/Domain_generalization/MSCN[00m$ screen -X 388419.pts-52.mlmlab[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KS 388419.pts-52.mlmlab -X quit()
+bash: syntax error near unexpected token `('
+(base) [01;32mmlmlab13@mlmlab[00m:[01;34m~/Domain_generalization/MSCN[00m$ screen -S 388419.pts-52.mlmlab -X quit()[K[K[K[K[K[Kexit()
+bash: syntax error near unexpected token `('
+(base) [01;32mmlmlab13@mlmlab[00m:[01;34m~/Domain_generalization/MSCN[00m$ screen -S 388419.pts-52.mlmlab -X exit()[K[K[K[K[K[K[Kquit[K[K[K[K quit

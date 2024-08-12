@@ -1,0 +1,11 @@
+python3 base_main.py \
+-model pointNext \
+-classnum 3 \
+-mode test \
+-cuda 0 \
+-normal \
+-epoch 10 \
+-bs 16 \
+-dataset your_paths/dataset/target_dataset \
+-record your_paths/MSCN/pointNext/test/train_log_name.log \
+-load your_paths/MSCN/pointNext/saved_model/model_name.pkl
