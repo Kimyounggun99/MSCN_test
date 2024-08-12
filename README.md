@@ -6,7 +6,7 @@ This repository is based on our work submitted to IEEE Access, 2024. The paper w
 
 ## Introduction
 
-<img src="imgs/Fig1.png" alt="teaser" width="700" />
+<img src="imgs/Fig1.png" alt="teaser" width="600" />
 
 
 Point cloud representation has garnered significant attention in computer vision, particularly in the realm of autonomous vehicles. However, adapting deep learning models to point cloud data remains challenging due to the diverse nature of datasets and sensor technologies. To address this, we introduce the **Multi-View Structural Convolution Network (MSCN)**, a model designed for domain-invariant point cloud recognition.    
@@ -24,7 +24,7 @@ Cuda 11.8
 ## 
 
 
-## Installation
+## Installation 
 There are requirements to run this code. Please follow commands below: 
 
 ```
@@ -33,6 +33,27 @@ cd MSCN
 pip3 install -r requirements.txt
 ```
 
+Create folders for datasets, parameters of models, and training log with the following commands.
+
+```
+mkdir log/
+mkdir log/domain_expansion_log/
+mkdir log/domain_expansion_log/train/
+mkdir log/domain_expansion_log/test/
+mkdir log/test/
+mkdir log/train/
+mkdir saved_model/Initial_encoder_for_domain_gen/
+mkdir saved_model/MSCN_with_unseen_domain
+mkdir saved_model/KITTI/
+mkdir saved_model/NUS/
+mkdir saved_model/PK/
+mkdir saved_model/SIM32/
+mkdir pointNext/log/
+mkdir pointNext/log/train/
+mkdir pointNext/log/test/
+mkdir pointNext/saved_model/
+mkdir dataset/
+```
 
 ## Dataset
 The dataset used in this work can be accessed at the following link:
@@ -114,7 +135,7 @@ For real-to-real domain change scenarios, you can use kitti_3, nuscenes_3, and p
 
 ## MSCN Framework
 
-<img src="imgs/Fig2.png" alt="teaser" width="1000" />
+<img src="imgs/Fig2.png" alt="teaser" width="900" />
 
 ### MSCN Training
 
@@ -191,7 +212,7 @@ python3 base_main.py -model pointNext -classnum <2 or 3> -cuda <your device> -mo
 
 ## Progressive Domain Expansion
 
-<img src="imgs/Fig3.png" alt="teaser" width="1000" />
+<img src="imgs/Fig3.png" alt="teaser" width="800" />
 
 To train MSCN with unseen domain point clouds and evaluate the effects of this process, we adopt the Progressive Domain Expansion Network (PDEN) with some modifications.
 
