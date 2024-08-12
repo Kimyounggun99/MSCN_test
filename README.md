@@ -6,7 +6,7 @@ This repository is based on our work submitted to IEEE Access, 2024. The paper w
 
 ## Introduction
 
-<img src="imgs/Fig1.png" alt="teaser" width="500" />
+<img src="imgs/Fig1.png" alt="teaser" width="600" />
 
 
 Point cloud representation has garnered significant attention in computer vision, particularly in the realm of autonomous vehicles. However, adapting deep learning models to point cloud data remains challenging due to the diverse nature of datasets and sensor technologies. To address this, we introduce the **Multi-View Structural Convolution Network (MSCN)**, a model designed for domain-invariant point cloud recognition.    
@@ -41,6 +41,7 @@ The dataset used in this work can be accessed at the following link:
 
 Please download all datasets into the MSCN folder and ensure the following dataset structure:
 
+```
 Your_paths/MSCN/dataset/
 │
 ├── kitti_3/
@@ -107,12 +108,13 @@ Your_paths/MSCN/dataset/
     └── pedestrian/
         ├── test/
         └── train/
+```
 
 For real-to-real domain change scenarios, you can use kitti_3, nuscenes_3, and pankyo_3. For sim-to-real domain change scenarios, you can use simulation_2, kitti_2, nuscenes_2, and pankyo_2.
 
 ## MSCN Framework
 
-<img src="imgs/Fig2.png" alt="teaser" width="500" />
+<img src="imgs/Fig2.png" alt="teaser" width="900" />
 
 ### MSCN Training
 
@@ -189,7 +191,7 @@ python3 base_main.py -model pointNext -classnum <2 or 3> -cuda <your device> -mo
 
 ## Progressive Domain Expansion
 
-<img src="imgs/Fig3.png" alt="teaser" width="500" />
+<img src="imgs/Fig3.png" alt="teaser" width="800" />
 
 To train MSCN with unseen domain point clouds and evaluate the effects of this process, we adopt the Progressive Domain Expansion Network (PDEN) with some modifications.
 
