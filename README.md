@@ -29,6 +29,8 @@ There are requirements to run this code. Please follow commands below:
 
 ```
 git clone https://github.com/MLMLab/MSCN.git
+conda create -n MSCN -y python=3.8
+conda activate MSCN
 cd MSCN
 pip3 install -r requirements.txt
 ```
