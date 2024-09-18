@@ -1,9 +1,6 @@
 # Multi-view Structural Convolution Network for Robust Cross-Source Point Cloud-based Recognition
 Created by Younggun Kim, University of Central Florida, USA, and Soomok Lee, Ajou University, South Korea.
 
-This repository is based on our work submitted to IEEE Access, 2024. The paper will be made available later.
-
-
 ## Introduction
 
 <img src="imgs/Fig1.png" alt="teaser" width="800" />
