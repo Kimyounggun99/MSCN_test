@@ -25,7 +25,7 @@ Cuda 11.8
 There are requirements to run this code. Please follow commands below: 
 
 ```
-git clone https://github.com/MLMLab/MSCN.git
+git clone https://github.com/Kimyounggun99/MSCN_test.git
 conda create -n MSCN -y python=3.8
 conda activate MSCN
 cd MSCN
