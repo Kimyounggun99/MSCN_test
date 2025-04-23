@@ -1,4 +1,4 @@
-# Multi-view Structural Convolution Network for Robust Cross-Source Point Cloud-based Recognition
+# Multi-view Structural Convolution Network for Domain-Invariant Point Cloud Recognition of Autonomous Vehicles
 Created by Younggun Kim, University of Central Florida, USA, and Soomok Lee, Ajou University, South Korea.
 
 ## Introduction
